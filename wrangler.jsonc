@@ -1,0 +1,10 @@
+{
+  "name": "intern-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-03-01",
+  // Plain variables are PUBLIC configuration. Never put a secret here.
+  "vars": {
+    "FIREBASE_PROJECT_ID": "intern-ashiqur-rahman-sandbox",
+    "ALLOWED_ORIGIN": "http://localhost:5173"
+  }
+}

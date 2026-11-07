@@ -1,0 +1,10 @@
+# Copy this file to .dev.vars. The file is ignored by Git. LOCAL DEVELOPMENT ONLY.
+# wrangler dev reads these values and adds them to the Worker environment.
+
+# A dummy secret to practise with. Never use a real secret in this exercise.
+API_SECRET=dummy-local-secret
+
+# Where the Worker downloads the public signing keys from while you test locally.
+# This points to the local key server started with: npm run jwks
+# NEVER set JWKS_URL in a deployed Worker (see the instructions).
+JWKS_URL=http://127.0.0.1:8788/jwks
